@@ -1,0 +1,17 @@
+{
+  "name": "reselling-piknic-script",
+  "version": "1.0.0",
+  "description": "Bot intended to find how many tickets are left",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "atomicfamily",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.16.0",
+    "puppeteer-cluster": "^0.24.0"
+  },
+  "type": "module"
+}

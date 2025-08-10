@@ -1,0 +1,1539 @@
+{
+  "totalPacksHeld": 20,
+  "totalTicketsHeld": 120,
+  "events": [
+    {
+      "ts": "2025-08-10T16:51:30.704Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.179Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.203Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.203Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.204Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.204Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.204Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.212Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.212Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:51:31.212Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.003Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.010Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.011Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.012Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.015Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.015Z",
+      "instance": 23,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.015Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.118Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.293Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.294Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.294Z",
+      "instance": 28,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.375Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.377Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.438Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.438Z",
+      "instance": 26,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.438Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.438Z",
+      "instance": 29,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.438Z",
+      "instance": 22,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.438Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.439Z",
+      "instance": 30,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.439Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.439Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.440Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.440Z",
+      "instance": 24,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.440Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.440Z",
+      "instance": 27,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.440Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.441Z",
+      "instance": 25,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:54:53.483Z",
+      "instance": 21,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.297Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.301Z",
+      "instance": 36,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.302Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.449Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.451Z",
+      "instance": 33,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.452Z",
+      "instance": 28,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.454Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.455Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.456Z",
+      "instance": 35,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.456Z",
+      "instance": 40,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.457Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.457Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.457Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.457Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.495Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.497Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.530Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.532Z",
+      "instance": 31,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.532Z",
+      "instance": 39,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.561Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.582Z",
+      "instance": 37,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.583Z",
+      "instance": 32,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:00.637Z",
+      "instance": 26,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.614Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.614Z",
+      "instance": 21,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.614Z",
+      "instance": 34,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.614Z",
+      "instance": 38,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.614Z",
+      "instance": 22,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.616Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.616Z",
+      "instance": 30,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.616Z",
+      "instance": 27,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.617Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.660Z",
+      "instance": 23,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.661Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.663Z",
+      "instance": 24,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.663Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.665Z",
+      "instance": 29,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.666Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.692Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T16:59:01.692Z",
+      "instance": 25,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.969Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.971Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.971Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.971Z",
+      "instance": 30,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.971Z",
+      "instance": 21,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.972Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.972Z",
+      "instance": 25,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.972Z",
+      "instance": 23,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.972Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.973Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.973Z",
+      "instance": 34,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.973Z",
+      "instance": 32,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.974Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.974Z",
+      "instance": 28,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.974Z",
+      "instance": 24,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.974Z",
+      "instance": 29,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.975Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.975Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.975Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.975Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.977Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.977Z",
+      "instance": 31,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.977Z",
+      "instance": 26,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 35,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 27,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.978Z",
+      "instance": 39,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.979Z",
+      "instance": 40,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.979Z",
+      "instance": 33,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:10.979Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.005Z",
+      "instance": 22,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.005Z",
+      "instance": 37,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.009Z",
+      "instance": 36,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.010Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.010Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.010Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:06:11.042Z",
+      "instance": 38,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.222Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.224Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.224Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.224Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.224Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.225Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.225Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.225Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.225Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.225Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.225Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.266Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.267Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.267Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.289Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.289Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.291Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.292Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.292Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:07:29.292Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.236Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.238Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.254Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.255Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.255Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.256Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.256Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.256Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.256Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.256Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.260Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.260Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.261Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.262Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.270Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.287Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.296Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.301Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.345Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:08:35.920Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:12.788Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.545Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.546Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.548Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.550Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.554Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.555Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.556Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.557Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.558Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.612Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.624Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.626Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.628Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.631Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.637Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.648Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.671Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:15.683Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:10:16.318Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:34.952Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:34.956Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:34.957Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:34.960Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:34.961Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:35.167Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:36.911Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.174Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.906Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.907Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.907Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.908Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.908Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.908Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.917Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.918Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.960Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:37.965Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:38.001Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:11:38.001Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.634Z",
+      "instance": 6,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.651Z",
+      "instance": 9,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.652Z",
+      "instance": 20,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.686Z",
+      "instance": 19,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.698Z",
+      "instance": 17,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.698Z",
+      "instance": 4,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.699Z",
+      "instance": 3,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.699Z",
+      "instance": 16,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.700Z",
+      "instance": 14,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.731Z",
+      "instance": 13,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.732Z",
+      "instance": 1,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.732Z",
+      "instance": 15,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.733Z",
+      "instance": 11,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.764Z",
+      "instance": 10,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.764Z",
+      "instance": 7,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.764Z",
+      "instance": 8,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.765Z",
+      "instance": 5,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.765Z",
+      "instance": 12,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:27.765Z",
+      "instance": 18,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    },
+    {
+      "ts": "2025-08-10T17:12:28.424Z",
+      "instance": 2,
+      "held": true,
+      "packs": 1,
+      "tickets": 6
+    }
+  ]
+}
