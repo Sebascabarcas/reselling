@@ -21,6 +21,7 @@ const SEL_PLUS_BUTTON =
 const SEL_NEXT_BUTTON = '#ticket-search-button';
 const SEL_REVIEW_BTN = '#order-summary__next__btn--review';
 const SEL_FINAL_CART_BTN = '#cart-summary-action-button';
+const SEL_FINAL_CART_BTN_2 = '#order-summary__next__btn--delivery';
 
 // Opcional: cookie banner (si aparece)
 const SEL_COOKIE_BUTTON =
@@ -218,6 +219,13 @@ async function runFlow(page, idx) {
   // 7) Cart final (consideramos “hold” conseguido aquí)
   await waitForEnabled(page, SEL_FINAL_CART_BTN);
   await clickThenWait(page, SEL_FINAL_CART_BTN, {
+    navWait: true,
+    timeout: 90000,
+  });
+
+  // 7) Cart final (consideramos “hold” conseguido aquí)
+  await waitForEnabled(page, SEL_FINAL_CART_BTN_2);
+  await clickThenWait(page, SEL_FINAL_CART_BTN_2, {
     navWait: true,
     timeout: 90000,
   });
