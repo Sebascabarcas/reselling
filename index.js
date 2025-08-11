@@ -37,16 +37,24 @@ const TICKETS_PER_PACK = 6;
 // Concurrencia y hold
 const INSTANCES = Number(process.env.INSTANCES || '12'); // cuántas en paralelo
 const HOLD_MS = Number(process.env.HOLD_MS || 9.5 * 60_000); // ~9m30s (ajusta)
+const IS_INITIAL = process.env.INITIAL === 'true'; // nuevo parámetro
 
 //
 // === Estado global y persistencia simple ===
 //
 let totalPacksHeld = 0;
 let totalTicketsHeld = 0;
+let localPacksHeld = 0; // contador local para este script
+let localTicketsHeld = 0; // contador local para este script
+
+// Generar nombre de archivo único basado en timestamp
+const timestamp = Math.floor(Date.now() / 1000);
+const scriptId = process.env.SCRIPT_ID || `script_${timestamp}`;
+const holdsFile = `holds_${scriptId}.json`;
 
 function saveProgress(event) {
-  const file = 'holds.json';
-  let data = { totalPacksHeld, totalTicketsHeld, events: [] };
+  const file = holdsFile;
+  let data = { totalPacksHeld: 0, totalTicketsHeld: 0, events: [], scriptId, timestamp };
   try {
     if (fs.existsSync(file)) {
       data = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -56,10 +64,73 @@ function saveProgress(event) {
   }
 
   if (event) data.events.push({ ts: new Date().toISOString(), ...event });
-  data.totalPacksHeld = totalPacksHeld;
-  data.totalTicketsHeld = totalTicketsHeld;
+  
+  // Siempre usar contadores locales (no hay conflicto entre scripts)
+  data.totalPacksHeld = localPacksHeld;
+  data.totalTicketsHeld = localTicketsHeld;
 
   fs.writeFileSync(file, JSON.stringify(data, null, 2));
+}
+
+// Función para cargar valores existentes al inicio (solo para mostrar)
+function loadExistingProgress() {
+  const file = holdsFile;
+  try {
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+      console.log(`Continuando script ${scriptId}: ${data.totalPacksHeld || 0} packs, ${data.totalTicketsHeld || 0} tickets`);
+      // Cargar valores existentes para continuar desde donde se quedó
+      localPacksHeld = data.totalPacksHeld || 0;
+      localTicketsHeld = data.totalTicketsHeld || 0;
+    } else {
+      console.log(`Iniciando nuevo script: ${scriptId}`);
+    }
+  } catch (error) {
+    console.log(`Iniciando nuevo script: ${scriptId}`);
+  }
+}
+
+// Función para actualizar contadores locales
+function updateLocalCounters(packs, tickets) {
+  localPacksHeld += packs;
+  localTicketsHeld += tickets;
+  // NO actualizamos totalPacksHeld y totalTicketsHeld aquí
+  // Solo mantenemos contadores locales independientes
+}
+
+// Función para combinar todos los archivos de holds
+function combineAllHolds() {
+  const files = fs.readdirSync('.').filter(f => f.startsWith('holds_') && f.endsWith('.json'));
+  let totalPacks = 0;
+  let totalTickets = 0;
+  let allEvents = [];
+  
+  files.forEach(file => {
+    try {
+      const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+      totalPacks += data.totalPacksHeld || 0;
+      totalTickets += data.totalTicketsHeld || 0;
+      if (data.events) {
+        allEvents = allEvents.concat(data.events);
+      }
+    } catch (error) {
+      console.log(`Error leyendo ${file}:`, error.message);
+    }
+  });
+  
+  const combinedData = {
+    totalPacksHeld: totalPacks,
+    totalTicketsHeld: totalTickets,
+    totalScripts: files.length,
+    events: allEvents.sort((a, b) => new Date(a.ts) - new Date(b.ts))
+  };
+  
+  fs.writeFileSync('holds_combined.json', JSON.stringify(combinedData, null, 2));
+  console.log(`\n==== RESUMEN COMBINADO ====`);
+  console.log(`Total scripts: ${files.length}`);
+  console.log(`Total packs: ${totalPacks}`);
+  console.log(`Total tickets: ${totalTickets}`);
+  console.log(`Archivo combinado: holds_combined.json`);
 }
 
 //
@@ -254,6 +325,9 @@ async function runFlow(page, idx) {
 //
 (async () => {
   try {
+    // Cargar progreso existente al inicio
+    loadExistingProgress();
+    
     const cluster = await Cluster.launch({
       concurrency: Cluster.CONCURRENCY_CONTEXT,
       maxConcurrency: INSTANCES,
@@ -268,12 +342,12 @@ async function runFlow(page, idx) {
         defaultViewport: { width: 1366, height: 820 },
         slowMo: 30,
       },
-      timeout: 5 * 60 * 1000, // antes del HOLD
+      timeout: HOLD_MS + (1 * 60 * 1000), // HOLD_MS + 1 minuto extra
     });
 
     await cluster.task(async ({ page, data: { idx } }) => {
       // Jitter leve para no pegarle todo a la vez
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 2000));
       // await page
       //   .waitForTimeout(Math.floor(Math.random() * 300) + 100)
       //   .catch(() => {});
@@ -286,8 +360,7 @@ async function runFlow(page, idx) {
       }
 
       if (res?.held) {
-        totalPacksHeld += 1;
-        totalTicketsHeld += TICKETS_PER_PACK;
+        updateLocalCounters(1, TICKETS_PER_PACK);
         saveProgress({
           instance: idx,
           held: true,
@@ -313,9 +386,13 @@ async function runFlow(page, idx) {
     await cluster.close();
 
     console.log('==== RESUMEN ====');
-    console.log('Packs retenidos:', totalPacksHeld);
-    console.log('Tickets retenidos:', totalTicketsHeld);
-    console.log('Progreso en holds.json');
+    console.log('Script ID:', scriptId);
+    console.log('Packs retenidos:', localPacksHeld);
+    console.log('Tickets retenidos:', localTicketsHeld);
+    console.log('Archivo de progreso:', holdsFile);
+    
+    // Combinar todos los archivos de holds
+    combineAllHolds();
   } catch (error) {
     console.error('Error:', error);
   }
